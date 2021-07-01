@@ -25,8 +25,8 @@
 
 namespace Tests\unit\WindowsAzure\Common;
 
-use Tests\Framework\ServiceRestProxyTestBase;
-use Tests\Framework\TestResources;
+use Tests\framework\ServiceRestProxyTestBase;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Internal\MediaServicesSettings;
 use WindowsAzure\Common\ServicesBuilder;
 
@@ -45,61 +45,6 @@ use WindowsAzure\Common\ServicesBuilder;
  */
 class ServicesBuilderTest extends ServiceRestProxyTestBase
 {
-    /**
-     * @covers \WindowsAzure\Common\ServicesBuilder::createQueueService
-     * @covers \WindowsAzure\Common\ServicesBuilder::httpClient
-     * @covers \WindowsAzure\Common\ServicesBuilder::serializer
-     * @covers \WindowsAzure\Common\ServicesBuilder::queueAuthenticationScheme
-     */
-    public function testBuildForQueue()
-    {
-        // Setup
-        $builder = new ServicesBuilder();
-
-        // Test
-        $queueRestProxy = $builder->createQueueService(TestResources::getWindowsAzureStorageServicesConnectionString());
-
-        // Assert
-        $this->assertInstanceOf('MicrosoftAzure\Storage\Queue\Internal\IQueue', $queueRestProxy);
-    }
-
-    /**
-     * @covers \WindowsAzure\Common\ServicesBuilder::createBlobService
-     * @covers \WindowsAzure\Common\ServicesBuilder::httpClient
-     * @covers \WindowsAzure\Common\ServicesBuilder::serializer
-     * @covers \WindowsAzure\Common\ServicesBuilder::blobAuthenticationScheme
-     */
-    public function testBuildForBlob()
-    {
-        // Setup
-        $builder = new ServicesBuilder();
-
-        // Test
-        $blobRestProxy = $builder->createBlobService(TestResources::getWindowsAzureStorageServicesConnectionString());
-
-        // Assert
-        $this->assertInstanceOf('MicrosoftAzure\Storage\Blob\Internal\IBlob', $blobRestProxy);
-    }
-
-    /**
-     * @covers \WindowsAzure\Common\ServicesBuilder::createTableService
-     * @covers \WindowsAzure\Common\ServicesBuilder::httpClient
-     * @covers \WindowsAzure\Common\ServicesBuilder::serializer
-     * @covers \WindowsAzure\Common\ServicesBuilder::mimeSerializer
-     * @covers \WindowsAzure\Common\ServicesBuilder::atomSerializer
-     * @covers \WindowsAzure\Common\ServicesBuilder::tableAuthenticationScheme
-     */
-    public function testBuildForTable()
-    {
-        // Setup
-        $builder = new ServicesBuilder();
-
-        // Test
-        $tableRestProxy = $builder->createTableService(TestResources::getWindowsAzureStorageServicesConnectionString());
-
-        // Assert
-        $this->assertInstanceOf('MicrosoftAzure\Storage\Table\Internal\ITable', $tableRestProxy);
-    }
 
     /**
      * @covers \WindowsAzure\Common\ServicesBuilder::createServiceManagementService

@@ -27,7 +27,7 @@ namespace Tests\unit\WindowsAzure\Common\Models;
 
 use WindowsAzure\Common\Models\Metrics;
 use WindowsAzure\Common\Internal\Utilities;
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Models\RetentionPolicy;
 use PHPUnit\Framework\TestCase;
 

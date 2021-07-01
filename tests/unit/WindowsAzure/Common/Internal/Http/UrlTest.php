@@ -26,7 +26,7 @@
 namespace Tests\unit\WindowsAzure\Common\Internal\Http;
 
 use WindowsAzure\Common\Internal\Http\Url;
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Internal\Resources;
 use WindowsAzure\Common\Internal\InvalidArgumentTypeException;
 use PHPUnit\Framework\TestCase;

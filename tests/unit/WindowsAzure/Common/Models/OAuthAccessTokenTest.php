@@ -27,7 +27,7 @@ namespace Tests\unit\WindowsAzure\Common\Models;
 
 use WindowsAzure\Common\Models\OAuthAccessToken;
 use WindowsAzure\Common\Internal\Resources;
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use PHPUnit\Framework\TestCase;
 
 /**

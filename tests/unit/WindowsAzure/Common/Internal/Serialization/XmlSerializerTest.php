@@ -25,7 +25,7 @@
 
 namespace Tests\unit\WindowsAzure\Common\Internal\Serialization;
 
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Models\ServiceProperties;
 use WindowsAzure\Common\Internal\Serialization\XmlSerializer;
 use PHPUnit\Framework\TestCase;

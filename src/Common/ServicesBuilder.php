@@ -174,42 +174,6 @@ class ServicesBuilder
     }
 
     /**
-     * Builds a queue object.
-     *
-     * @param string $connectionString The configuration connection string
-     *
-     * @return IQueue
-     */
-    public function createQueueService($connectionString)
-    {
-        return StorageServiceBuilder::getInstance()->createQueueService($connectionString);
-    }
-
-    /**
-     * Builds a blob object.
-     *
-     * @param string $connectionString The configuration connection string
-     *
-     * @return IBlob
-     */
-    public function createBlobService($connectionString)
-    {
-        return StorageServiceBuilder::getInstance()->createBlobService($connectionString);
-    }
-
-    /**
-     * Builds a table object.
-     *
-     * @param string $connectionString The configuration connection string
-     *
-     * @return ITable
-     */
-    public function createTableService($connectionString)
-    {
-        return StorageServiceBuilder::getInstance()->createTableService($connectionString);
-    }
-
-    /**
      * Builds a Service Bus object.
      *
      * @param string $connectionString The configuration connection string

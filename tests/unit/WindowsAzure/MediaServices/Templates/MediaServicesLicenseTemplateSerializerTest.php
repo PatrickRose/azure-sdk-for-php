@@ -197,7 +197,7 @@ class MediaServicesLicenseTemplateSerializerTest extends TestCase
     ) {
         $this->assertEquals($expected->getAllowTestDevices(), $actual->getAllowTestDevices());
         $this->assertEquals($expected->getLicenseType(), $actual->getLicenseType());
-        $this->assertEquals($expected->getBeginDate(), $actual->getBeginDate());
+        $this->assertEquals($expected->getBeginDate()->format('c'), $actual->getBeginDate()->format('c'));
         $this->assertEquals($expected->getExpirationDate(), $actual->getExpirationDate());
         $this->assertEquals($expected->getRelativeBeginDate(), $actual->getRelativeBeginDate());
         $this->assertEquals($expected->getRelativeExpirationDate(), $actual->getRelativeExpirationDate());

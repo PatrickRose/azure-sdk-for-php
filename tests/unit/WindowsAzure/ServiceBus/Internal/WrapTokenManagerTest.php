@@ -26,8 +26,8 @@
 namespace Tests\unit\WindowsAzure\ServiceBus\Internal;
 
 use WindowsAzure\Common\ServicesBuilder;
-use Tests\Framework\TestResources;
-use Tests\Framework\ServiceRestProxyTestBase;
+use Tests\framework\TestResources;
+use Tests\framework\ServiceRestProxyTestBase;
 use WindowsAzure\Common\ServiceException;
 
 use WindowsAzure\ServiceBus\Internal\WrapTokenManager;

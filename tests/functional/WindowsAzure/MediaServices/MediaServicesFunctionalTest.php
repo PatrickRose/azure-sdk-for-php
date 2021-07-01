@@ -25,8 +25,8 @@
 
 namespace Tests\Unit\WindowsAzure\MediaServices;
 
-use Tests\Framework\MediaServicesRestProxyTestBase;
-use Tests\Framework\TestResources;
+use Tests\framework\MediaServicesRestProxyTestBase;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Internal\Resources;
 use WindowsAzure\Common\Internal\Utilities;
 use WindowsAzure\MediaServices\Models\Asset;
@@ -46,7 +46,7 @@ use WindowsAzure\MediaServices\Models\ContentKeyTypes;
 use WindowsAzure\MediaServices\Models\EncryptionSchemes;
 use WindowsAzure\Common\Internal\Http\Url;
 use WindowsAzure\Common\Internal\Http\HttpClient;
-use Tests\Framework\VirtualFileSystem;
+use Tests\framework\VirtualFileSystem;
 
 /**
  * Unit tests for class MediaServicesRestProxy.

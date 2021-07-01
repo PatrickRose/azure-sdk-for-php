@@ -25,8 +25,8 @@
 
 namespace Tests\unit\WindowsAzure\Common\Internal\Filters;
 
-use Tests\Framework\ServiceRestProxyTestBase;
-use Tests\Framework\TestResources;
+use Tests\framework\ServiceRestProxyTestBase;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Internal\Filters\WrapFilter;
 use WindowsAzure\Common\Internal\Http\HttpClient;
 use WindowsAzure\Common\Internal\Http\Url;

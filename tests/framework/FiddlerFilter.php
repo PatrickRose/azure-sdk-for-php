@@ -39,7 +39,7 @@ class FiddlerFilter implements IServiceFilter
     public function __construct()
     {
         if (!self::$isChecked) {
-            set_error_handler(['Tests\Framework\FiddlerFilter', 'errorHandler']);
+            set_error_handler(['Tests\framework\FiddlerFilter', 'errorHandler']);
             self::$isChecked = true;
             self::$isFiddlerOn = false;
             try {

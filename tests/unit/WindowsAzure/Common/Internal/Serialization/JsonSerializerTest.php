@@ -25,7 +25,7 @@
 
 namespace Tests\unit\WindowsAzure\Common\Internal\Serialization;
 
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Internal\Serialization\JsonSerializer;
 use PHPUnit\Framework\TestCase;
 

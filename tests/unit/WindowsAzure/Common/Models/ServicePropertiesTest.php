@@ -25,7 +25,7 @@
 
 namespace Tests\unit\WindowsAzure\Common\Models;
 
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Internal\Utilities;
 use WindowsAzure\Common\Models\Logging;
 use WindowsAzure\Common\Models\Metrics;

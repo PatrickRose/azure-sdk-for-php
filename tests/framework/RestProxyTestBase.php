@@ -74,7 +74,7 @@ class RestProxyTestBase extends TestCase
         assert_options(ASSERT_ACTIVE, 1);
         assert_options(ASSERT_WARNING, 0);
         assert_options(ASSERT_QUIET_EVAL, 1);
-        assert_options(ASSERT_CALLBACK, 'Tests\Framework\RestProxyTestBase::assertHandler');
+        assert_options(ASSERT_CALLBACK, 'Tests\framework\RestProxyTestBase::assertHandler');
     }
 
     public function setProxy($serviceRestProxy)
@@ -92,6 +92,6 @@ class RestProxyTestBase extends TestCase
 
     public function testDummy()
     {
-        // dummy test to get rid of warning "No tests found in class 'Tests\Framework\RestProxyTestBase' "
+        // dummy test to get rid of warning "No tests found in class 'Tests\framework\RestProxyTestBase' "
     }
 }

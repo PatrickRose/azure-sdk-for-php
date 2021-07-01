@@ -25,7 +25,7 @@
 
 namespace Tests\functional\WindowsAzure\ServiceBus;
 
-use Tests\Framework\ServiceBusRestProxyTestBase;
+use Tests\framework\ServiceBusRestProxyTestBase;
 
 class CustomPropertiesMapperTest extends ServiceBusRestProxyTestBase
 {

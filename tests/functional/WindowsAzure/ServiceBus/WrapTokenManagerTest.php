@@ -25,7 +25,7 @@
 
 namespace Tests\Functional\WindowsAzure\ServiceBus;
 
-use Tests\Framework\ServiceBusRestProxyTestBase;
+use Tests\framework\ServiceBusRestProxyTestBase;
 use WindowsAzure\Common\Internal\IServiceFilter;
 use WindowsAzure\Common\Internal\Utilities;
 use WindowsAzure\ServiceBus\Internal\IWrap;

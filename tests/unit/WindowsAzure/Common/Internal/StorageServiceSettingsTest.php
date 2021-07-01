@@ -27,7 +27,7 @@ namespace Tests\unit\WindowsAzure\Common\Internal;
 
 use WindowsAzure\Common\Internal\StorageServiceSettings;
 use WindowsAzure\Common\Internal\Resources;
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use PHPUnit\Framework\TestCase;
 
 /**

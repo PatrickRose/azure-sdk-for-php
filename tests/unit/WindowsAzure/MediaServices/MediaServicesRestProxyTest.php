@@ -25,8 +25,8 @@
 
 namespace Tests\unit\WindowsAzure\MediaServices;
 
-use Tests\Framework\MediaServicesRestProxyTestBase;
-use Tests\Framework\TestResources;
+use Tests\framework\MediaServicesRestProxyTestBase;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Internal\Utilities;
 use WindowsAzure\Common\ServiceException;
 use WindowsAzure\MediaServices\Models\Asset;
@@ -96,7 +96,7 @@ use WindowsAzure\MediaServices\Templates\AllowedTrackTypes;
 use WindowsAzure\MediaServices\Templates\ContentKeySpecs;
 use WindowsAzure\MediaServices\Templates\Hdcp;
 use WindowsAzure\MediaServices\Templates\RequiredOutputProtection;
-use Tests\Framework\VirtualFileSystem;
+use Tests\framework\VirtualFileSystem;
 use WindowsAzure\MediaServices\Templates\X509CertTokenVerificationKey;
 
 /**

@@ -24,7 +24,7 @@
 
 namespace Tests\unit\WindowsAzure\MediaServices\Models;
 
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use WindowsAzure\MediaServices\Models\ContentKeyAuthorizationPolicyOption;
 use WindowsAzure\MediaServices\Models\ContentKeyAuthorizationPolicyRestriction;
 use WindowsAzure\MediaServices\Models\ContentKeyDeliveryType;

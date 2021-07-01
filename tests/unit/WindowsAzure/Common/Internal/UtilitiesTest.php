@@ -27,7 +27,7 @@ namespace Tests\unit\WindowsAzure\Common\Internal;
 
 use WindowsAzure\Common\Internal\Utilities;
 use WindowsAzure\Common\Internal\Resources;
-use Tests\Framework\TestResources;
+use Tests\framework\TestResources;
 use WindowsAzure\Common\Models\ServiceProperties;
 use WindowsAzure\Common\Internal\Serialization\XmlSerializer;
 use WindowsAzure\MediaServices\Models\Asset;

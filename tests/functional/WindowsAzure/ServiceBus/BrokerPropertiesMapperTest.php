@@ -25,7 +25,7 @@
 
 namespace Tests\functional\WindowsAzure\ServiceBus;
 
-use Tests\Framework\ServiceBusRestProxyTestBase;
+use Tests\framework\ServiceBusRestProxyTestBase;
 use Tests\Functional\WindowsAzure\BlobServiceFunctionalTestData;
 use WindowsAzure\ServiceBus\Models\BrokerProperties;
 
